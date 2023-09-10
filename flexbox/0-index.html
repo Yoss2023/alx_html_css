@@ -1,0 +1,44 @@
+/* Add display: flex; for the row class */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Remove the row::after declaration */
+/* row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+/* Remove the float: left inside [class*='col-'] */
+[class*='col-'] {
+    /* float: left; Remove this line */
+    /* Add some spacing for demonstration purposes */
+    margin-right: 15px;
+}
+
+/* Additional styles for demonstration purposes */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+[class*='col-'] {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Optional: Add some responsiveness for smaller screens */
+@media (max-width: 768px) {
+    [class*='col-'] {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
