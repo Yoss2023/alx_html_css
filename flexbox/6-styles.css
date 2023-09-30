@@ -1,0 +1,24 @@
+/* Navbar section ============================= */
+nav {
+  display: flex; /* Add this line */
+  background-color: var(--main-bg-color);
+  padding: var(--nav-padding);
+}
+
+.nav .nav-item {
+  /* Remove display declaration */
+  padding: var(--nav-item-padding);
+}
+
+/* Add a new selector for .nav .nav-item + .nav-item */
+.nav .nav-item + .nav-item {
+  margin: 0 0 0 2rem; /* Set the margin as described */
+}
+
+/* Remove the existing margin declaration from .nav .nav-item */
+/* Variables section ============================= */
+:root {
+  --nav-item-margin: 0 0 0 2rem; /* Change the value as described */
+  /* Existing variables */
+}
+
