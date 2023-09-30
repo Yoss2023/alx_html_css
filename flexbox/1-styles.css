@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+[class*='col-'] {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
+
