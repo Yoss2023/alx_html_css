@@ -1,0 +1,25 @@
+/* Header section ============================= */
+header {
+  background-color: var(--main-bg-color);
+  padding: var(--header-padding);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Remove header-logo and header-logo a rules */
+.header-logo {
+  /* Existing styles */
+}
+
+.header-logo a {
+  /* Existing styles */
+}
+
+/* Remove the navbar-menu rule */
+.navbar-menu {
+  /* Existing styles */
+}
+
