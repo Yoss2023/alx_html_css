@@ -1,0 +1,10 @@
+/* Header section ============================= */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Add this line to center the items vertically */
+}
+
+/* Remove header-logo and header-logo a rules */
+/* Remove the navbar-menu rule */
+
