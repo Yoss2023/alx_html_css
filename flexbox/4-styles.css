@@ -1,0 +1,18 @@
+/* Grid section ============================= */
+.col-1-3 {
+  width: calc((100% / 3) - 2rem);
+}
+
+.col-1-2 {
+  width: calc((100% / 2) - 2rem);
+}
+
+[class*='col-'] {
+  margin: 1rem;
+  /* Remove padding declaration */
+}
+
+ul.row {
+  margin: -1rem; /* Replace the current margin with -1rem */
+}
+
