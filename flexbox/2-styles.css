@@ -1,0 +1,10 @@
+/* Other styles above */
+
+/* Section Latest news ============================= */
+.section-latest-news .row {
+  flex-direction: row-reverse;
+}
+
+/*** 4. CARD ***/
+/* Remaining styles below */
+
